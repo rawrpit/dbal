@@ -1,0 +1,15 @@
+{
+    "name": "arpit/dbal",
+    "autoload": {
+        "psr-4": {
+            "Arpit\\Dbal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rawrpit",
+            "email": "1054@htl.rennweg.at"
+        }
+    ],
+    "require": {}
+}
