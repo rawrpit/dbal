@@ -11,5 +11,7 @@
             "email": "1054@htl.rennweg.at"
         }
     ],
-    "require": {}
+    "require": {
+        "doctrine/dbal": "^4.2"
+    }
 }
