@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <form method="post">
-  <label>Spielername: <input name="player_name" required></label><br>
+  <label>Player Name: <input name="player_name" required></label><br>
   <label>Symbol:
     <select name="symbol">
       <option value="rock">Rock</option>
@@ -21,5 +21,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <option value="scissors">Scissors</option>
     </select>
   </label><br>
-  <button type="submit">Speichern</button>
+  <button type="submit">Save</button>
 </form>

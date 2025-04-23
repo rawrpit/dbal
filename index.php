@@ -45,15 +45,16 @@ $rounds = $pdo->fetchAllAssociative("SELECT * FROM game_rounds ORDER BY game_tim
     <?php foreach ($rounds as $runde) { ?>
         <div class="round">
             <p><b><?php echo $runde['player_name']; ?></b></p>
+
             <p><?php echo $runde['symbol']; ?></p>
+
             <p><?php echo $runde['game_time']; ?></p>
-            <p><a href="delete.php?id=<?php echo $runde['id']; ?>"
-                    onclick="return confirm('u sure u wanna delete it??')">Löschen</a></p>
+
+            <p><a href="delete.php?id=<?php echo $runde['id']; ?>">Delete</a></p>
         </div>
     <?php } ?>
 
-
-    <p><a href="add.php"> + Add new Roound</a></p>
+    <p><a href="add.php"> + Add new Round</a></p>
 </body>
 
 </html>
