@@ -17,12 +17,7 @@ $rounds = $pdo->fetchAllAssociative("SELECT * FROM game_rounds ORDER BY game_tim
             margin: auto;
         }
 
-        .round {
-            border-bottom: 1px solid #ccc;
-            padding: 0.5rem 0;
-        }
-
-        .round span {
+        span {
             display: inline-block;
             width: 30%;
         }
